@@ -1,0 +1,16 @@
+insert into product(id, name, price, stockamount, createdTime) values (1, '밀키트1', 12000, 14, current_timestamp);
+insert into product(id, name, price, stockamount, createdTime) values (2, '밀키트2', 13000, 10, current_timestamp);
+insert into product(id, name, price, stockamount, createdTime) values (3, '밀키트3', 15000, 9, current_timestamp);
+insert into product(id, name, price, stockamount, createdTime) values (4, '밀키트4', 12000, 30, current_timestamp);
+insert into product(id, name, price, stockamount, createdTime) values (5, '밀키트5', 22000, 30, current_timestamp);
+insert into product(id, name, price, stockamount, createdTime) values (6, '밀키트6', 23000, 30, current_timestamp);
+insert into product(id, name, price, stockamount, createdTime) values (7, '밀키트7', 9000, 32, current_timestamp);
+insert into product(id, name, price, stockamount, createdTime) values (8, '밀키트8', 11000, 10, current_timestamp);
+insert into product(id, name, price, stockamount, createdTime) values (9, '밀키트9', 21000, 15, current_timestamp);
+insert into product(id, name, price, stockamount, createdTime) values (10, '밀키트10', 43000, 30, current_timestamp);
+insert into product(id, name, price, stockamount, createdTime) values (11, '밀키트11', 8000, 30, current_timestamp);
+insert into product(id, name, price, stockamount, createdTime) values (12, '밀키트12', 6000, 30, current_timestamp);
+insert into product(id, name, price, stockamount, createdTime) values (13, '밀키트13', 17000, 30, current_timestamp);
+insert into product(id, name, price, stockamount, createdTime) values (14, '밀키트14', 12000, 30, current_timestamp);
+insert into product(id, name, price, stockamount, createdTime) values (15, '밀키트15', 19000, 30, current_timestamp);
+insert into product(id, name, price, stockamount, createdTime) values (16, '밀키트16', 22000, 30, current_timestamp);
