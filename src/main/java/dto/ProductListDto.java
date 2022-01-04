@@ -1,6 +1,5 @@
 package dto;
 
-import com.mysema.query.Tuple;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,9 +16,9 @@ public class ProductListDto {
     private int price;
 
 
-    public ProductListDto(Tuple tuple) {
-        name = tuple.get(0, String.class);
-        stockAmount = tuple.get(1, Integer.class);
-        price = tuple.get(2, Integer.class);
-    }
+//    public ProductListDto(Tuple tuple) {
+//        name = tuple.get(0, String.class);
+//        stockAmount = tuple.get(1, Integer.class);
+//        price = tuple.get(2, Integer.class);
+//    }
 }

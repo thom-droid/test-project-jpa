@@ -5,6 +5,7 @@ import lombok.*;
 import javax.persistence.*;
 
 @Getter
+@Setter
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
@@ -21,5 +22,7 @@ public class Product extends BaseTime{
     private int price;
     private int stockAmount;
 
+    @Embedded
+    private ProductDetail productDetail;
 
 }

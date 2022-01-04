@@ -20,7 +20,7 @@
         <!-- 데이터베이스 버전 -->
         <h2db.version>1.4.187</h2db.version>
 
-        <querydsl.version>3.7.4</querydsl.version>
+        <querydsl.version>4.1.0</querydsl.version>
 
     </properties>
 
@@ -64,20 +64,31 @@
             <version>1.2.6</version>
         </dependency>
 
+<!--        <dependency>-->
+<!--            <groupId>com.querydsl</groupId>-->
+<!--            <artifactId>querydsl-apt</artifactId>-->
+<!--            <version>${querydsl.version}</version>-->
+<!--            <scope>provided</scope>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>com.querydsl</groupId>-->
+<!--            <artifactId>querydsl-jpa</artifactId>-->
+<!--            <version>${querydsl.version}</version>-->
+<!--        </dependency>-->
 
         <dependency>
-            <groupId>com.mysema.querydsl</groupId>
+            <groupId>com.querydsl</groupId>
             <artifactId>querydsl-apt</artifactId>
-            <version>${querydsl.version}</version>
+            <version>4.1.4</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
-            <groupId>com.mysema.querydsl</groupId>
+            <groupId>com.querydsl</groupId>
             <artifactId>querydsl-jpa</artifactId>
-            <version>${querydsl.version}</version>
+            <version>4.2.1</version>
         </dependency>
-
 
 
     </dependencies>
@@ -105,7 +116,7 @@
                         </goals>
                         <configuration>
                             <outputDirectory>target/generated-sources/java</outputDirectory>
-                            <processor>com.mysema.query.apt.jpa.JPAAnnotationProcessor</processor>
+                            <processor>com.querydsl.apt.jpa.JPAAnnotationProcessor</processor>
                         </configuration>
                     </execution>
                 </executions>
